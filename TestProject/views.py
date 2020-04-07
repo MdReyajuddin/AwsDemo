@@ -2,10 +2,10 @@ from django.shortcuts import render
 from django.http import HttpResponse
 # from .models import Name
 
-def hello(request, name):
+def hello(request):
     # return render(request, "hello.html", {"name": name})
 
-    return HttpResponse("<b>Hello " + name +"</b>")
+    return HttpResponse("Hello Reyaj")
 
 # def saveToDb(request, name):
 #     Name.objects.create(name = name)
